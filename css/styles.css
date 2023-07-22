@@ -159,6 +159,11 @@ body {
 }
 
 /* РОЗМІТКА СТОРІНКИ  */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 .container {
     max-width: 1158px;
     padding-left: 15px;
@@ -191,4 +196,7 @@ body {
 }
 .link-logo {
     margin-right: 76px;
+}
+.nav .link {
+    padding: 24px 0;
 }
