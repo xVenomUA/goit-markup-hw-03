@@ -272,7 +272,26 @@ img {
     margin: 0 0 72px 0;
 }
 /* TEAM */
+.team {
+    padding: 120px 0;
+}
 .team .i-two {
     padding-bottom: 72px;
     margin: 0;
+}
+.team .list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+    text-align: center;
+}
+.team .liii {
+    flex-basis: calc((100-3 * 24px) / 4);
+}
+.team .i-tree {
+    margin: 32px 0 8px 0;
+}
+.team .text {
+    margin: 0 0 32px 0;
 }
