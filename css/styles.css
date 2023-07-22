@@ -295,3 +295,16 @@ img {
 .team .text {
     margin: 0 0 32px 0;
 }
+/* ФУТЕР */
+.end {
+    padding: 100px 0;
+}
+.end .link {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.end .text {
+    max-width: 264px;
+    height: 72px;
+    margin: 0;
+}
