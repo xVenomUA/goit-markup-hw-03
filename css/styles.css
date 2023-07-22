@@ -23,9 +23,11 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02rem;
 }
-.link {
+.link,
+.link-logo {
     text-decoration: none;
 }
+.nav .link-logo,
 .nav .link,
 .end .link {
     font-family: var(--primaryral-font);
@@ -154,4 +156,39 @@ body {
 }
 .portfolio .text {
     color: var(--slate-color);
+}
+
+/* РОЗМІТКА СТОРІНКИ  */
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 141px;
+    margin-right: 141px;
+    margin: 0 auto;
+}
+
+/* Футер */
+.header .container {
+    display: flex;
+}
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header .nav {
+    display: flex;
+    align-items: center;
+}
+.nav .list {
+    display: flex;
+    margin-right: 332px;
+    gap: 40px;
+}
+.adre .list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.link-logo {
+    margin-right: 76px;
 }
