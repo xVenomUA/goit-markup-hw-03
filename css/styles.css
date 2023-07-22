@@ -172,6 +172,9 @@ body {
     margin-right: 141px;
     margin: 0 auto;
 }
+img {
+    display: block;
+}
 
 /* Футер */
 .header .container {
