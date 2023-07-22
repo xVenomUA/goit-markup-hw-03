@@ -244,8 +244,11 @@ img {
     gap: 24px;
     margin: 0;
 }
-.benefit .i-tree {
-    margin-bottom: 8px;
+.h-tree {
+    margin: 0 0 8px 0;
+}
+.benefit .text {
+    margin: 0;
 }
 .benefit .liii {
     flex-basis: calc((100% - 3 * 24px) / 4);
