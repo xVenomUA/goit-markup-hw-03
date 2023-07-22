@@ -1,0 +1,157 @@
+:root {
+    --primaryral-font: 'Raleway', sans-serif;
+    --primaryrob-font: 'Roboto', sans-serif;
+    --primary-white-color: #ffffff;
+    --primary-navyblue-color: #2e2f42;
+    --iris-color: #4d5ae5;
+    --slate-color: #434455;
+    --howe-color: #404bbf;
+    --cloud-color: #f4f4fd;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    font-family: var(--primaryrob-font);
+    color: var(--slate-color);
+}
+
+/*₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴*/
+.list {
+    list-style-type: none;
+}
+.text {
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
+}
+.link {
+    text-decoration: none;
+}
+.nav .link,
+.end .link {
+    font-family: var(--primaryral-font);
+    color: var(--iris-color);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.second {
+    color: var(--primary-navyblue-color);
+}
+
+.nav .list .link {
+    font-family: var(--primaryrob-font);
+    color: var(--primary-navyblue-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
+    text-transform: none;
+}
+
+.nav .link:hover,
+.nav .link:focus {
+    color: var(--howe-color);
+}
+.adre .link {
+    color: var(--slate-color);
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
+}
+.adre {
+    font-style: normal; /*Хотіло для завдання, хоча можна і в.adre .link запхати і теж працює */
+}
+.adre .link:hover,
+.adre .link:focus {
+    color: var(--howe-color);
+}
+/*₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴*/
+
+.service,
+.end {
+    background-color: var(--primary-navyblue-color);
+}
+
+.service .i-one {
+    font-size: 56px;
+    color: var(--primary-white-color);
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.07rem;
+    text-align: center;
+}
+.service .buttoo {
+    font-family: var(--primaryrob-font);
+    font-size: 16px;
+    color: var(--primary-white-color);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04rem;
+    background-color: var(--iris-color);
+    cursor: pointer;
+}
+
+.service .buttoo:hover,
+.service .buttoo:focus {
+    background-color: var(--howe-color);
+}
+
+/*₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴*/
+
+.i-two {
+    color: var(--primary-navyblue-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.045rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/*₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴*/
+
+.team {
+    background-color: #f4f4fd;
+}
+
+.team .liii {
+    background-color: var(--primary-white-color);
+}
+
+.team .i-tree,
+.portfolio .htwo,
+.benefit .h-tree {
+    color: var(--primary-navyblue-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.025rem;
+}
+/*₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴*/
+
+.end .second,
+.end .text {
+    color: #f4f4fd;
+}
+
+/*₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴₴*/
+.portfolio .buttoo {
+    font-family: var(--primaryrob-font);
+    color: var(--iris-color);
+    background-color: var(--cloud-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04rem;
+    cursor: pointer;
+}
+
+.portfolio .buttoo:hover,
+.portfolio .buttoo:focus {
+    color: var(--primary-white-color);
+    background-color: #404bbf;
+}
+.portfolio .text {
+    color: var(--slate-color);
+}
