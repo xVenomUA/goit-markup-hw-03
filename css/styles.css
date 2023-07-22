@@ -96,6 +96,12 @@ body {
     letter-spacing: 0.04rem;
     background-color: var(--iris-color);
     cursor: pointer;
+    max-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
 }
 
 .service .buttoo:hover,
@@ -223,11 +229,4 @@ img {
 /* BENEFITS */
 .service .container {
     padding: 188px 0;
-    justify-content: center;
-}
-.buttoo {
-    max-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
 }
