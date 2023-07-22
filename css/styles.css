@@ -239,5 +239,15 @@ img {
 }
 .benefit .list {
     display: flex;
+    align-items: flex-start;
+    padding: 0;
     gap: 24px;
+    margin: 0;
 }
+.benefit .i-tree {
+    margin-bottom: 8px;
+}
+.benefit .liii {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
+/* WORK */
