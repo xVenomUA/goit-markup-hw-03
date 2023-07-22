@@ -287,6 +287,7 @@ img {
     display: flex;
     gap: 24px;
     margin: 0;
+    padding: 0;
 }
 .cont-team {
     padding: 32px 0;
