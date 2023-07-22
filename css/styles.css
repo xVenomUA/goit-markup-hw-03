@@ -253,15 +253,14 @@ img {
 .benefit .liii {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
+.benefit .i-two {
+    margin: 0 0 72 0;
+}
 /* WORK */
 .work {
-    padding-bottom: 120px;
+    padding-bottom: 0 0 120px 0;
 }
-.work .i-two,
-.team .i-two {
-    padding-bottom: 72px;
-    margin: 0;
-}
+
 .work .list {
     display: flex;
     gap: 24px;
@@ -270,4 +269,10 @@ img {
 }
 .work .liii {
     flex-basis: calc((100% - 48px) / 3);
+}
+
+/* TEAM */
+.team .i-two {
+    padding-bottom: 72px;
+    margin: 0;
 }
