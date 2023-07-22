@@ -279,7 +279,24 @@ img {
     flex-basis: calc((100-3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
+.team .i-two {
+    padding: 0 0 72px 0;
+    margin: 0;
+}
+.team .list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+    text-align: center;
+}
 
+.team .i-tree {
+    margin: 32px 0 8px 0;
+}
+.team .text {
+    margin: 0 0 32px 0;
+}
 /* ФУТЕР */
 .end {
     padding: 100px 0;
