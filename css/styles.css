@@ -288,6 +288,7 @@ img {
 }
 .team .liii {
     flex-basis: calc((100-3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .team .i-tree {
     margin: 32px 0 8px 0;
