@@ -96,12 +96,6 @@ body {
     letter-spacing: 0.04rem;
     background-color: var(--iris-color);
     cursor: pointer;
-    max-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
-    display: block;
-    margin: 0 auto;
 }
 
 .service .buttoo:hover,
@@ -226,7 +220,24 @@ img {
 }
 
 /* MAIN CLASS  */
-/* BENEFITS */
-.service .container {
+/* SERVICE */
+.service {
     padding: 188px 0;
+}
+.buttoo {
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+}
+/* все в стилях */
+/*BENEFITS*/
+.benefit {
+    padding: 120px 0;
+}
+.benefit .list {
+    display: flex;
+    gap: 24px;
 }
