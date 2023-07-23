@@ -255,8 +255,7 @@ img {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 /* WORK */
-.work,
-.team {
+.work {
     padding-bottom: 120px;
 }
 .work .list,
@@ -276,6 +275,9 @@ img {
     margin-top: 0;
 }
 /* TEAM */
+.team {
+    padding: 120px 0;
+}
 .team .liii {
     flex-basis: calc((100-3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
