@@ -160,6 +160,7 @@ body {
     cursor: pointer;
     padding: 12px 24px;
     border: 1px solid var(--but-color);
+    border-radius: 4px;
 }
 
 .portfolio .buttoo:hover,
