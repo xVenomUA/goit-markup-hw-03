@@ -251,13 +251,9 @@ img {
 .cont-port .htwo {
     margin: 0 0 8px 0;
 }
-.benefit .text {
-    margin: 0;
-}
 .benefit .liii {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
-
 /* WORK */
 .work,
 .team {
@@ -279,14 +275,10 @@ img {
     margin-top: 0;
 }
 /* TEAM */
-.team {
-    padding: 120px 0;
-}
 .team .liii {
     flex-basis: calc((100-3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
-
 .cont-team {
     padding: 32px 0;
     text-align: center;
@@ -296,7 +288,8 @@ img {
     margin: 0 0 8px 0;
 }
 .cont-team .text,
-.cont-port .text {
+.cont-port .text,
+.benefit .text {
     margin: 0;
 }
 /* ФУТЕР */
