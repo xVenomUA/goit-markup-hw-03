@@ -210,10 +210,11 @@ img {
 .header .nav {
     display: flex;
     align-items: center;
+    margin: 0 auto 0 0;
 }
 .nav .list {
     display: flex;
-    margin: 0 332px 0 0;
+    margin: 0;
     gap: 40px;
     padding: 0;
 }
@@ -228,8 +229,8 @@ img {
     margin-right: 75px;
 }
 .nav .link {
-    padding: 24px 0;
     display: block;
+    padding: 24px 0;
     margin: 0;
 }
 
