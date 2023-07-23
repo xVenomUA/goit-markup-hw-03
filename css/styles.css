@@ -329,7 +329,8 @@ img {
     justify-content: center;
     gap: 24px;
     margin: 0;
-    padding: 0 0 72px 0;
+    margin-bottom: 72px;
+    padding: 0;
 }
 .portfolio .buttoo {
     padding: 12px 24px;
