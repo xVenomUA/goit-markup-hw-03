@@ -343,6 +343,16 @@ img {
     row-gap: 48px;
     column-gap: 24px;
 }
-.portfolio .list-button .buttoo {
-    flex-basis: calc((100% - 24 * 4) / 5);
+.portfolio .list .link {
+    flex-basis: calc((100% - 48) / 3);
+}
+.cont-port {
+    padding: 32px 0;
+    margin: 0;
+}
+.cont-port .htwo {
+    margin: 0 0 8px 0;
+}
+.cont-port .text {
+    margin: 0;
 }
