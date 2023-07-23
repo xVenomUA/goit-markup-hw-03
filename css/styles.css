@@ -97,6 +97,12 @@ body {
     letter-spacing: 0.04rem;
     background-color: var(--iris-color);
     cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
 }
 
 .service .buttoo:hover,
@@ -152,6 +158,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04rem;
     cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid var(--but-color);
 }
 
 .portfolio .buttoo:hover,
@@ -226,14 +234,6 @@ img {
 .service {
     padding: 188px 0;
 }
-.buttoo {
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
-    display: block;
-    margin: 0 auto;
-}
 /* все в стилях */
 /*BENEFITS*/
 .benefit {
@@ -258,11 +258,12 @@ img {
 }
 
 /* WORK */
-.work {
+.work,
+.team {
     padding-bottom: 120px;
 }
-
-.work .list {
+.work .list,
+.team .list {
     display: flex;
     gap: 24px;
     padding: 0;
@@ -270,9 +271,6 @@ img {
 }
 .work .liii {
     flex-basis: calc((100% - 48px) / 3);
-}
-.work .i-two {
-    margin: 0 0 72px 0;
 }
 /* TEAM */
 .team {
@@ -285,12 +283,6 @@ img {
 .team .i-two {
     margin-bottom: 72px;
     margin-top: 0;
-}
-.team .list {
-    display: flex;
-    gap: 24px;
-    margin: 0;
-    padding: 0;
 }
 .cont-team {
     padding: 32px 0;
@@ -333,10 +325,6 @@ img {
     margin: 0;
     margin-bottom: 72px;
     padding: 0;
-}
-.portfolio .buttoo {
-    padding: 12px 24px;
-    border: 1px solid var(--but-color);
 }
 .portfolio .list {
     margin: 0;
