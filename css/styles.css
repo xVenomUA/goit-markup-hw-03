@@ -309,9 +309,7 @@ img {
 /* PORTFOLIO */
 
 .portfolio {
-    display: flex;
     padding: 96px 0 120px 0;
-    flex-wrap: wrap;
 }
 .portfolio .list-button {
     list-style-type: none;
