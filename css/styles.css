@@ -206,7 +206,6 @@ img {
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
-
 .header .nav {
     display: flex;
     align-items: center;
@@ -214,24 +213,20 @@ img {
 }
 .nav .list {
     display: flex;
-    margin: 0;
-    gap: 40px;
     padding: 0;
+    gap: 40px;
 }
 .adre .list {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
-    margin: 0;
+    padding: 0;
 }
 .link-logo {
-    margin-right: 75px;
+    margin-right: 76px;
 }
 .nav .link {
-    display: block;
     padding: 24px 0;
-    margin: 0;
 }
 
 /* MAIN CLASS  */
