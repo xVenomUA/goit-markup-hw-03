@@ -214,8 +214,8 @@ img {
 .nav .list {
     display: flex;
     margin: 0 332px 0 0;
-    padding: 0;
     gap: 40px;
+    padding: 0;
 }
 .adre .list {
     display: flex;
@@ -228,8 +228,9 @@ img {
     margin-right: 75px;
 }
 .nav .link {
-    display: block;
     padding: 24px 0;
+    display: block;
+    margin: 0;
 }
 
 /* MAIN CLASS  */
