@@ -272,6 +272,10 @@ img {
 .work .liii {
     flex-basis: calc((100% - 48px) / 3);
 }
+.work .i-two {
+    margin-bottom: 72px;
+    margin-top: 0;
+}
 /* TEAM */
 .team {
     padding: 120px 0;
